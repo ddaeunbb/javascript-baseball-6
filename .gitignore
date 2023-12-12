@@ -3,6 +3,6 @@ package-lock.json
 package.json
 .vscode
 .eslintrc.cjs
-.prettier
+.prettierrc
 .prettierignore
 .DS_Store
