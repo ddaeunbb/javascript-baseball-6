@@ -1,7 +1,7 @@
 import { Random } from '@woowacourse/mission-utils';
 
 /**
- * @classdesc 드로잉머신
+ * @classdesc DrawingMachine
  * 난수를 만들고, 난수를 알려준다.
 */
 class DrawingMachine {
