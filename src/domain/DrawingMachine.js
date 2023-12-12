@@ -20,6 +20,10 @@ class DrawingMachine {
     this.#number = Number(numStr);
   }
 
+  /**
+   * 난수 리턴
+   * @return {number}
+  */
   getRandomNumber() {
     return this.#number;
   }

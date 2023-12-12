@@ -1,7 +1,7 @@
-import { Console } from '@woowacourse/mission-utils';
 import DrawingMachine from '../domain/DrawingMachine';
 import OutputView from '../view/OutputView';
 import InputView from '../view/InputView';
+import UserNumberValidator from '../validators/UserNumberValidator';
 
 class BaseballController {
   #drawingMachine
@@ -10,7 +10,7 @@ class BaseballController {
     this.#drawingMachine = new DrawingMachine();
     OutputView.noticeStart();
     const userNumber = await InputView.readUserNumber();
-    Console.print(userNumber);
+    UserNumberValidator.validateUserNumber(userNumber);
   }
 }
 
